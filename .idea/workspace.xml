@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9870e199-a2fa-44cf-8441-04dfb9179412" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prueba/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prueba/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs/src/main/resources/testng.xml">
     <configuration name="C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SwagLabs" />
@@ -117,21 +114,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

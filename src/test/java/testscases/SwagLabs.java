@@ -53,5 +53,7 @@ public class SwagLabs {
 
     @AfterMethod
     public void close(){
+        driver.quit();
+        driver.close();
     }
 }
