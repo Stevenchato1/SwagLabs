@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9870e199-a2fa-44cf-8441-04dfb9179412" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prueba/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prueba/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +35,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs/src/main/resources/testng.xml">
+    <configuration name="C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscases" />
+      <option name="MAIN_CLASS_NAME" value="testscases.SwagLabs" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabs.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SwagLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testscases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testscases" />
+      <option name="MAIN_CLASS_NAME" value="testscases.SwagLabs" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Steven HO/Desktop/QA-Automation/WEB/Project/SwagLabs/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.SwagLabs" />
+        <item itemvalue="TestNG.SwagLabs.login" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,5 +117,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testscases/SwagLabs.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

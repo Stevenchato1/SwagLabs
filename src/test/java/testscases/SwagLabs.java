@@ -30,7 +30,7 @@ public class SwagLabs {
         Assert.assertTrue(loginPage.isLoadedTexBox());
         loginPage.enterCredentials("standard_user","secret_sauce");
         String value = loginPage.isValueCorrect();
-        if (value.equals("Products")){
+        if (value.contains("PRODUCTS")) {
             Assert.assertTrue(true);
         }else{
             Assert.assertTrue(false);
@@ -53,6 +53,5 @@ public class SwagLabs {
 
     @AfterMethod
     public void close(){
-        driver.close();
     }
 }

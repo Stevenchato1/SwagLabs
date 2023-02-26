@@ -1,0 +1,12 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+    <listeners>
+        <listener class-name="extentReporterNG.ExtentReporterNG"/>
+    </listeners>
+    <test name="Regression1">
+        <classes>
+            <class name="testscases.SwagLabs"/>
+        </classes>
+    </test>
+</suite>

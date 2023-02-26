@@ -17,7 +17,7 @@ public class LoginPage extends BasePage{
 
     public void enterCredentials(String user,String pwd){
         driver.findElement(By.id("user-name")).sendKeys(user);
-        driver.findElement(By.id("password")).sendKeys();
+        driver.findElement(By.id("password")).sendKeys(pwd);
         driver.findElement(By.id("login-button")).click();
     }
 
@@ -26,12 +26,12 @@ public class LoginPage extends BasePage{
     }
 
     public String isValueCorrect(){
-        WebElement value = driver.findElement(By.xpath("//span[text()='Products']"));
+        WebElement value = driver.findElement(By.xpath("//span[@class='title']"));
         return value.getText();
     }
 
     public String isValueIncorrect(){
-        WebElement value= driver.findElement(By.xpath("//button[@class='error-button']"));
+        WebElement value= driver.findElement(By.xpath("//h3[@data-test='error']"));
         return value.getText();
     }
 
